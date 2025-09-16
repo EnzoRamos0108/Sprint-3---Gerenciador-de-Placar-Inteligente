@@ -14,7 +14,7 @@
 ## 👩‍💻 Integrantes
 
 <p align="center">
-  <span style="font-size:16px;">Enzo Ramos | Felipe Cerazi | Gustavo Peaguda | Lorenzo Coque</span>
+  <span style="font-size:16px;">Enzo Ramos - RM: 563705| Felipe Cerazi: 562746 | Gustavo Peaguda- RM: 562923 | Lorenzo Coque: 563385 </span>
 </p>
 
 ---
