@@ -1,92 +1,114 @@
-# ⚽ Gerenciador de Placar Inteligente - Passa a Bola  
+# 🏆 Gerenciador de Placar Inteligente - Copa Passa a Bola
 
 <p align="center">
-  <img src="imagem_2025-09-16_171050116.png" alt="Logo Passa a Bola" width="500"/>
+  <img src="imagem_2025-09-26_171050116.png" alt="Logo Passa a Bola" width="300"/>
 </p>
 
-<p align="center">
-  <b>Projeto oficial da Copa Passa a Bola</b> - Um gerenciador de placar inteligente para campeonatos de futebol feminino amador, feito para modernizar a gestão da competição.  
-</p>
+[![ESP32](https://img.shields.io/badge/ESP32-00979D?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)  
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)  
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
 
 ---
 
-## 🌟 Sobre o Projeto  
-
-O **Gerenciador de Placar Inteligente** foi desenvolvido para a **empresa Passa a Bola**, com foco na **Copa Passa a Bola**, campeonato amador de futebol feminino.  
-
-A solução integra hardware e software para atualizar o placar em tempo real, permitindo uma experiência **interativa, eficiente e moderna**.  
-
-### 🔧 Tecnologias utilizadas:
-- **ESP32 + Botões (Wokwi)**
-- **Máquina Virtual na Azure**
-- **MQTT + IP**
-- **Google Colab (Python, HTML e CSS)**
-- **Postman para testes de API**
-
----
-
-## 🎮 Funcionalidades  
-
-Os botões físicos simulados no **Wokwi (ESP32)** oferecem as seguintes ações:  
-
-- ➕➖ **Adicionar e remover cartões amarelos**  
-- ➕➖ **Adicionar e remover cartões vermelhos**  
-- ➕➖ **Adicionar e remover gols da Equipe A**  
-- ➕➖ **Adicionar e remover gols da Equipe B**  
-- ⏸️▶️🔄 **Pausar, continuar e reiniciar o tempo do placar**  
-
-Cada ação é enviada ao sistema, que atualiza o **placar em tempo real no Google Colab**.
-
----
-
-## 📡 Arquitetura do Sistema  
-
-A arquitetura conecta os dispositivos IoT ao back-end e aplicações de forma modular:  
+## 👩‍💻 Integrantes
 
 <p align="center">
-  <img src="assets/arquitetura.png" alt="Diagrama da Arquitetura do Sistema" width="800"/>
+  <span style="font-size:16px;">Enzo Ramos | Felipe Cerazi | Gustavo Peaguda | Lorenzo Coque</span>
 </p>
 
 ---
 
-## 🔗 Links Importantes  
+## 📖 Sobre o Projeto
 
-- 📥 **Arquivo JSON para Postman** → [Clique aqui](score_atualizado.json)  
-- 🖥️ **Projeto no Wokwi** → [Clique aqui](https://wokwi.com/projects/SEU_LINK_AQUI)  
-- ▶️ **Vídeo Explicativo (YouTube)** → [Clique aqui](https://youtube.com/SEU_VIDEO_AQUI)  
+O **Gerenciador de Placar Inteligente** é uma solução completa para a **Copa Passa a Bola**, campeonato amador de futebol feminino.  
+
+Ele integra:
+- **ESP32 com botões no Wokwi**  
+- **Máquina virtual na Azure**  
+- **Postman**  
+- **Notebook Google Colab**  
+
+🎯 **Objetivo:** atualizar o placar em tempo real e controlar gols, cartões e tempo de jogo com interação física via botões.
+
+### ⚡ Funcionalidades dos Botões
+- 🟡 Adicionar/remover **cartões amarelos**  
+- 🔴 Adicionar/remover **cartões vermelhos**  
+- ⚽ Adicionar/remover **gols da equipe A**  
+- ⚽ Adicionar/remover **gols da equipe B**  
+- ⏱️ **Pausar, continuar e reiniciar** o tempo do placar  
 
 ---
 
-## 🖼️ Prévia do Projeto  
+## 🏗️ Arquitetura do Sistema
 
 <p align="center">
-  <img src="assets/wokwi-print.png" alt="Print do projeto no Wokwi" width="600"/>
+  <img src="arquitetura_sistema.png" alt="Arquitetura do Sistema" width="600"/>
 </p>
 
----
+### 🔍 Explicação
 
-## 🚀 Como Executar  
-
-### 1️⃣ Importar no Postman  
-- Vá até o arquivo [postman](score_atualizado.json)  
-- Baixe e importe o arquivo no **Postman**  
-
-### 2️⃣ Simular no Wokwi  
-- Abra o [projeto no Wokwi](https://wokwi.com/projects/442112220674354177)  
-- Rode o projeto  
-
-### 3️⃣ Visualizar no Google Colab  
-- Execute o notebook fornecido com Python, HTML e CSS  
-- O placar será atualizado em **tempo real** conforme os botões são acionados  
+1. **ESP32 + Botões (Wokwi):** captura ações físicas dos botões (gols, cartões, tempo).  
+2. **MQTT + Azure:** eventos do ESP32 são enviados para a máquina virtual na Azure, que processa e transmite dados.  
+3. **Google Colab:** código Python recebe eventos e atualiza a interface HTML + CSS do placar em tempo real.  
+4. **Postman:** arquivo `score atualizado.json` permite testar endpoints e integração com outros sistemas.
 
 ---
 
-## 🤝 Equipe  
+## 🛠️ Recursos Necessários
 
-Este projeto foi desenvolvido pela equipe **Passa a Bola** para transformar a experiência da **Copa Passa a Bola**.  
+- 💻 Computador com **Google Colab**  
+- ☁️ Acesso à **máquina virtual na Azure**  
+- [🎮 Wokwi ESP32](https://wokwi.com/projects/442112220674354177)  
+- 🧰 **Postman** com `score atualizado.json`  
+- 🌐 Browser para visualizar o placar em tempo real  
 
 ---
+
+## ⚙️ Como Usar
+
+### 1️⃣ Simulação Wokwi
+1. Abra o projeto no Wokwi: [Clique aqui](https://wokwi.com/projects/442112220674354177)  
+2. Interaja com os botões virtuais para alterar gols, cartões ou pausar/continuar o tempo.  
 
 <p align="center">
-  Feito com 💜 por <b>Passa a Bola</b> ⚽
+  <img src="projeto_wokwi.png" alt="Projeto Wokwi" width="600"/>
 </p>
+
+### 2️⃣ Google Colab
+1. Abra `Untitled2.ipynb` no Google Colab.  
+2. Execute as células para conectar ao **ESP32** via MQTT/IP da Azure.  
+3. O placar será atualizado em tempo real refletindo todas as ações dos botões.
+
+### 3️⃣ Postman
+1. Importe `score atualizado.json` no Postman.  
+2. Teste os endpoints para simular eventos do jogo ou verificar logs de atualização do placar.
+
+### 4️⃣ Visualização do Placar
+- Mostra:
+  - Gols de cada equipe ⚽  
+  - Cartões amarelos 🟡 e vermelhos 🔴  
+  - Estado do tempo de jogo ⏱️  
+
+### 5️⃣ Vídeo Demonstrativo
+Assista ao funcionamento completo: [YouTube 🎬](https://youtu.be/FIKXscPuLE4)
+
+---
+
+
+---
+
+## 🚀 Contribuições
+
+Este projeto é **educacional e colaborativo**.  
+Sinta-se à vontade para:
+- 📚 Estudar o código  
+- ✨ Integrar melhorias  
+- 🛠️ Testar novas funcionalidades  
+
+---
+
+> Desenvolvido com dedicação e paixão pelo futebol feminino por **Enzo Ramos, Felipe Cerazi, Gustavo Peaguda e Lorenzo Coque** ⚽💻  
+
+
+
