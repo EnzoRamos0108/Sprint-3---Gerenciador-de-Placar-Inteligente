@@ -51,7 +51,7 @@ A arquitetura conecta os dispositivos IoT ao back-end e aplicações de forma mo
 
 ## 🔗 Links Importantes  
 
-- 📥 **Arquivo JSON para Postman** → [Clique aqui](./postman/placar_postman.json)  
+- 📥 **Arquivo JSON para Postman** → [Clique aqui](score_atualizado.json)  
 - 🖥️ **Projeto no Wokwi** → [Clique aqui](https://wokwi.com/projects/SEU_LINK_AQUI)  
 - ▶️ **Vídeo Explicativo (YouTube)** → [Clique aqui](https://youtube.com/SEU_VIDEO_AQUI)  
 
@@ -68,7 +68,7 @@ A arquitetura conecta os dispositivos IoT ao back-end e aplicações de forma mo
 ## 🚀 Como Executar  
 
 ### 1️⃣ Importar no Postman  
-- Vá até o arquivo [`postman`](score_atualizado)  
+- Vá até o arquivo [postman](score_atualizado.json)  
 - Baixe e importe o arquivo no **Postman**  
 
 ### 2️⃣ Simular no Wokwi  
