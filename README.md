@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Projeto oficial da Copa Passa a Bola</b> - Um gerenciador de placar inteligente para campeonatos de futebol feminino amador, feito para modernizar a gestão da competição.  
+  <b>Projeto oficial da Copa Passa a Bola</b> - Um gerenciador de placar inteligente para campeonatos de futebol feminino, feito para modernizar a gestão da competição.  
 </p>
 
 ---
