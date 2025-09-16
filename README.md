@@ -68,12 +68,12 @@ A arquitetura conecta os dispositivos IoT ao back-end e aplicações de forma mo
 ## 🚀 Como Executar  
 
 ### 1️⃣ Importar no Postman  
-- Vá até a pasta [`postman`](./postman/placar_postman.json)  
+- Vá até o arquivo [`postman`](score_atualizado)  
 - Baixe e importe o arquivo no **Postman**  
 
 ### 2️⃣ Simular no Wokwi  
-- Abra o [projeto no Wokwi](https://wokwi.com/projects/SEU_LINK_AQUI)  
-- Clique em **Start Simulation**  
+- Abra o [projeto no Wokwi](https://wokwi.com/projects/442112220674354177)  
+- Rode o projeto  
 
 ### 3️⃣ Visualizar no Google Colab  
 - Execute o notebook fornecido com Python, HTML e CSS  
