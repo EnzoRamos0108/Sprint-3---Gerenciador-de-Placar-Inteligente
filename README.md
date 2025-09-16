@@ -1,7 +1,7 @@
 # 🏆 Gerenciador de Placar Inteligente - Copa Passa a Bola
 
 <p align="center">
-  <img src="imagem_2025-09-26_171050116.png" alt="Logo Passa a Bola" width="500"/>
+  <img src="imagem_2025-09-16_171050116.png" alt="Logo Passa a Bola" width="500"/>
 </p>
 
 [![ESP32](https://img.shields.io/badge/ESP32-00979D?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)  
