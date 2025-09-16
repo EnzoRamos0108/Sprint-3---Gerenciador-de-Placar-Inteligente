@@ -108,7 +108,7 @@ Sinta-se à vontade para:
 
 ---
 
-> Desenvolvido com dedicação e paixão pelo futebol feminino por **Enzo Ramos, Felipe Cerazi, Gustavo Peaguda e Lorenzo Coque** ⚽💻  
+> Desenvolvido com dedicação por **Enzo Ramos, Felipe Cerazi, Gustavo Peaguda e Lorenzo Coque** ⚽💻  
 
 
 
