@@ -59,7 +59,7 @@ Ele integra:
 
 - 💻 Computador com **Google Colab**  
 - ☁️ Acesso à **máquina virtual na Azure**  
-- [🎮 Wokwi ESP32](https://wokwi.com/projects/442112220674354177)  
+- [🎮 Wokwi ESP32](https://wokwi.com/projects/442288825722106881)  
 - 🧰 **Postman** com `score atualizado.json`  
 - 🌐 Browser para visualizar o placar em tempo real  
 
@@ -68,7 +68,7 @@ Ele integra:
 ## ⚙️ Como Usar
 
 ### 1️⃣ Simulação Wokwi
-1. Abra o projeto no Wokwi: [Clique aqui](https://wokwi.com/projects/442112220674354177)  
+1. Abra o projeto no Wokwi: [Clique aqui](https://wokwi.com/projects/442288825722106881)  
 2. Interaja com os botões virtuais para alterar gols, cartões ou pausar/continuar o tempo.  
 
 <p align="center">
