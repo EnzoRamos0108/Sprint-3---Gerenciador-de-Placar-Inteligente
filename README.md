@@ -1,11 +1,11 @@
 # ⚽ Gerenciador de Placar Inteligente - Passa a Bola  
 
 <p align="center">
-  <img src="imagem_2025-09-16_171050116.png" alt="Logo Passa a Bola" width="500"/>
+  <img src="assets/logo.png" alt="Logo Passa a Bola" width="200"/>
 </p>
 
 <p align="center">
-  <b>Projeto oficial da Copa Passa a Bola</b> - Um gerenciador de placar inteligente para campeonatos de futebol feminino, feito para modernizar a gestão da competição.  
+  <b>Projeto oficial da Copa Passa a Bola</b> - Um gerenciador de placar inteligente para campeonatos de futebol feminino amador, feito para modernizar a gestão da competição.  
 </p>
 
 ---
@@ -41,10 +41,11 @@ Cada ação é enviada ao sistema, que atualiza o **placar em tempo real no Goog
 
 ## 📡 Arquitetura do Sistema  
 
-1. **Botões no Wokwi (ESP32)** → Envio de eventos via MQTT/IP  
-2. **Máquina Virtual na Azure** → Hospeda o processamento e comunicação  
-3. **Google Colab (Python, HTML, CSS)** → Atualiza o placar em tempo real  
-4. **Postman** → Importação do JSON e testes das rotas de API  
+A arquitetura conecta os dispositivos IoT ao back-end e aplicações de forma modular:  
+
+<p align="center">
+  <img src="assets/arquitetura.png" alt="Diagrama da Arquitetura do Sistema" width="800"/>
+</p>
 
 ---
 
@@ -89,6 +90,3 @@ Este projeto foi desenvolvido pela equipe **Passa a Bola** para transformar a ex
 <p align="center">
   Feito com 💜 por <b>Passa a Bola</b> ⚽
 </p>
-
-
-
