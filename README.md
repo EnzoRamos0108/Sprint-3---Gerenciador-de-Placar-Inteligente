@@ -1,7 +1,7 @@
 # ⚽ Gerenciador de Placar Inteligente - Passa a Bola  
 
 <p align="center">
-  <img src="imagem_2025-09-16_171050116.png" alt="Logo Passa a Bola" width="200"/>
+  <img src="imagem_2025-09-16_171050116.png" alt="Logo Passa a Bola" width="500"/>
 </p>
 
 <p align="center">
